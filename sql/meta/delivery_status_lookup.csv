@@ -1,0 +1,7 @@
+delivery_status,delivery_stage
+delivered,fulfilled
+shipped,in_progress
+pending,in_progress
+processing,in_progress
+cancelled,failed
+returned,failed
