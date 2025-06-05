@@ -1,0 +1,68 @@
+# Findings Summary & Business Insights
+
+**Author:** Adedamola Onabanjo  
+**Project:** Bumpa ETL Case Study  
+**Date:** June 2025  
+
+---
+
+## Overview
+
+This analysis evaluated Bumpa's e-commerce order data to uncover business trends, fulfillment patterns, and revenue opportunities. Using Looker Studio and SQL, I derived insights that guided 2 key business recommendations.
+
+---
+
+## Key Metrics
+
+- **Top Product Categories by Revenue:**
+  1. Food & Beverage
+  2. Home Goods
+  3. Clothing
+  4. Books
+  5. Electronics
+
+- **Highest Revenue Month:** October 2023  
+- **Average Order Value (Delivered Orders):** ₦765.27  
+- **Delivery Rate (October):** < 40% across categories  
+
+---
+
+## Insight Visualizations
+
+- Monthly Revenue Trend  
+- Top 5 Revenue Generating Categories  
+- Delivery Status Breakdown (Oct)  
+- AOV by Delivery Status  
+- Total Revenue
+- AOV
+- Total Orders
+
+[See Full Dashboard PDF](../visualizations/dashboard.pdf)
+
+---
+
+## Strategic Observations
+
+- **October had the highest revenue**, but delivery success was disproportionately low.
+- **Delivered orders yielded the highest AOV**, making fulfillment critical to profitability.
+- **Returns and cancellations** were high in core categories, especially during peak season.
+
+---
+
+## Recommendations
+
+### 1. Improve Fulfillment for Top Categories
+> Prioritize logistics partnerships and SLA enforcement for Food & Beverage and Home Goods categories. These drive revenue but suffer fulfillment gaps.
+
+### 2. Incentivize Prepaid Deliveries
+> Delivered orders generate higher AOV. Redesign the checkout flow to highlight trust signals, offer delivery guarantees, or discounts for prepaid orders.
+
+---
+
+## Next Steps
+
+- Introduce real-time data validation before daily runs
+- Expand QA coverage to financial metrics
+- Build out customer segmentation for churn analysis
+
+---
